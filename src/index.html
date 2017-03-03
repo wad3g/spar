@@ -15,13 +15,27 @@
 
 </head>
 <body>
-    <header class="header">
-        <div class="header__hero">
-            <h1 class="header__hero-title">Hero</h1>
-        </div>
+    <header class="header header__fixed">
+                <div class="header__menu header__menu-right">
+        <ul class="header__navigation">
+            <li class="header__header">
+                <a href="#" class="header__brand"><img class="header__brand-image" src="img/logo.png" />Yao</a>
+                <label class="header__hamburger header__hamburger-doublespin"
+                id="header__hamburger" for="header__checkbox"> <span></span> </label>
+            </li>
+            <li class="header__item"><a href="#">Docs</a></li>
+            <li class="header__item"><a href="#">GitHub</a></li>
+        </ul>
+    </div>
     </header>
 
     <section class="main">
+        <div class="hero">
+                <div class="hero__image">
+                    <h1 class="hero__title">Yao</h1>
+                    <h3 class="hero__sub-title">A simple PostCSS boilerplate built using npm scripts</h3>
+                </div>
+            </div>
         <div class="intro">
             <div class="intro-container">
                 <div class=" col-md-8 col-centered">
@@ -87,24 +101,7 @@
                 </div>
             </div>
         </div>
-
-        <div class="gallery">
-            <div class="gallery-container">
-                <div class="col-xs-8 gallery__image">
-                    <img src="img/collage_tl.jpg" alt="gallery image" />
-                </div>
-                <div class="col-xs-4 gallery__image">
-                    <img src="img/collage_tr.jpg" alt="gallery image" />
-                </div>
-                <div class="col-xs-6 gallery__image">
-                    <img src="img/collage_bl.jpg" alt="gallery image" />
-                </div>
-                <div class="col-xs-6 gallery__image">
-                    <img src="img/collage_br.jpg" alt="gallery image" />
-                </div>
-            </div>
-        </div>
     </section>
-<script src="//localhost:9091"></script>
+<script src="//localhost:4000"></script>
 </body>
 </html>

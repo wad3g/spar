@@ -1,0 +1,42 @@
+.hero {
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+        background-color: #0B0001;
+        width: 100%;
+        flex-grow: 5;
+        flex-shrink: 1;
+        flex-basis: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    &__title {
+        font-size: 320px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: white;
+            margin-top: 0;
+            line-height: 1;
+            letter-spacing: -0.02em;
+
+        @media (max-width: 700px) {
+            font-size: 42px;
+        }
+    }
+
+    &__sub-title {
+        font-size: 2rem;
+font-weight: 400;
+margin-bottom: 15px;
+line-height: 0;
+letter-spacing: 0.02em;
+margin-top: 0;
+color: #898998;
+    }
+}
