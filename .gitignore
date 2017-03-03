@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+
+# Release Folder
+dist
+
+# Misc (system, IDEs)
+.DS_Store
+.idea
+
+# Logs
+logs
+*.log
+npm-debug.log*
