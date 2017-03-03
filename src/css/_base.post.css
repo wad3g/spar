@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 62.5%
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "proxima-nova", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background-color: #f7f7f7;
+    color: #5E5E5E;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #66A7B8;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+
+    @media (max-width: 700px) {
+        font-size: 20px;
+    }
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+
+    + p {
+        margin-bottom: 20px;
+    }
+}
+
+.col-centered {
+    float: none !important;
+    margin: 0 auto;
+}
+
+[class$="-container"] {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 15px;
+
+    @media (max-width: 700px) {
+        padding: 25px 15px;
+    }
+}

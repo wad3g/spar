@@ -1,0 +1,9 @@
+# Humans
+
+What is this? http://humanstxt.org/
+
+## Web Developers
+-
+
+## Web Developers for [Yao Boilerplate](https://github.com/wad3g/yao-boilerplate.git)
+- Wade Garret (https://github.com/wad3g)
