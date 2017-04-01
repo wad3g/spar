@@ -1,5 +1,5 @@
 {
-  "name": "spar-boilerplate",
+  "name": "spar",
   "version": "0.0.1",
   "description": "Spar - A lean boilerplate using npm as a Build Tool",
   "author": {
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wad3g/spar-boilerplate.git"
+    "url": "https://github.com/wad3g/spar.git"
   },
   "keywords": [
     "spar",
@@ -70,8 +70,8 @@
     "postcss"
   ],
   "bugs": {
-    "url": "https://github.com/wad3g/spar-boilerplate.git/issues"
+    "url": "https://github.com/wad3g/spar.git/issues"
   },
   "private": true,
-  "homepage": "https://github.com/wad3g/spar-boilerplate.git"
+  "homepage": "https://github.com/wad3g/spar.git"
 }

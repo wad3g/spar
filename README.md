@@ -1,5 +1,7 @@
 # Spar /spär/
-**[WIP]** A lean boilerplate using npm as a Build Tool
+**[WIP]** A lean boilerplate using npm as a Build Tool.
+
+**Spar** is the predecessor to **[Timber](https://github.com/wad3g/timber)**, a more feature packed/advanced boilerplate using webpack2 and yarn.
 
 
 ## Features
@@ -18,8 +20,8 @@
 Clone the repository
 
 ``` bash
-git clone https://github.com/wad3g/spar-boilerplate.git
-cd spar-boilerplate
+git clone https://github.com/wad3g/spar.git
+cd spar
 ```
 
 Install the dependencies.
