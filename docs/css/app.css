@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 62.5%
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+     font-famiy: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background-color: #f7f7f7;
+    color: #5E5E5E;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #66A7B8;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 700px) {
+
+	h3 {
+		font-size: 20px;
+	}
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
+
+p + p {
+	margin-bottom: 20px;
+}
+
+.col-centered {
+    float: none !important;
+    margin: 0 auto;
+}
+
+[class="-container"] {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+@media (max-width: 700px) {
+
+	[class="-container"] {
+		padding: 25px 15px;
+	}
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__image {
+	background-color: #191C21;
+	width: 100%;
+	flex-grow: 5;
+	flex-shrink: 1;
+	flex-basis: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+}
+
+.hero__title {
+	font-size: calc(100% + 12vw);
+	font-weight: 800;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 0;
+	line-height: 1;
+	letter-spacing: -0.02em;
+	margin-bottom: 1.5rem;
+}
+
+.hero__title span {
+	font-weight: 200;
+	color: #999;
+	text-transform: none;
+}
+
+.hero__sub-title {
+	font-size: calc(50% + 1.4vw);
+	font-weight: 300;
+	line-height: 2;
+	letter-spacing: 0.035em;
+	margin-top: 3rem;
+	color: #6DD280;
+}
