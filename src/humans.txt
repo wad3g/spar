@@ -5,5 +5,5 @@ What is this? http://humanstxt.org/
 ## Web Developers
 -
 
-## Web Developers for [Yao Boilerplate](https://github.com/wad3g/yao-boilerplate.git)
+## Web Developers for [Spar Boilerplate](https://github.com/wad3g/spar-boilerplate.git)
 - Wade Garret (https://github.com/wad3g)

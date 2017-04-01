@@ -1,7 +1,7 @@
 {
-  "name": "yao-boilerplate",
+  "name": "spar-boilerplate",
   "version": "0.0.1",
-  "description": "Yao - a simple PostCSS boilerplate built using npm scripts",
+  "description": "Spar - A lean boilerplate using npm as a Build Tool",
   "author": {
       "name": "Wade Garrett",
       "email": "wade@wadegarrett.com",
@@ -28,15 +28,15 @@
     "postcss-nested": "^1.0.0"
   },
   "scripts": {
-    "clean": "rm -vrf dist/*",
-    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
-    "minify:css": "postcss -u cssnano -o dist/css/app.min.css dist/css/app.css",
-    "minify:img": "imagemin src/img/* -o dist/img/",
+    "clean": "rm -vrf docs/*",
+    "autoprefixer": "postcss -u autoprefixer -r docs/css/*",
+    "minify:css": "postcss -u cssnano -o docs/css/app.min.css docs/css/app.css",
+    "minify:img": "imagemin src/img/* -o docs/img/",
     "minify": "\"npm run minify:css -s\" \"npm run minify:img -s\"",
-    "sourcemaps": "postcss src/css/app.css -u autoprefixer -m -o dist/css/app.css.map",
-    "postcss": "postcss src/css/app.css -u postcss-import -u postcss-custom-properties -u postcss-nested -u postcss-color-function -u postcss-mixins -o dist/css/app.css",
+    "sourcemaps": "postcss src/css/app.css -u autoprefixer -m -o docs/css/app.css.map",
+    "postcss": "postcss src/css/app.css -u postcss-import -u postcss-custom-properties -u postcss-nested -u postcss-color-function -u postcss-mixins -o docs/css/app.css",
 
-    "build:html": "cp src/index.html dist/index.html",
+    "build:html": "cp src/index.html docs/index.html",
     "build:css": "parallelshell \"npm run postcss -s\" \"npm run autoprefixer -s\"",
     "build:img": "npm run minify:img",
     "build:js": "echo 'js built!'",
@@ -49,8 +49,8 @@
     "watch:js": "onchange src/js/*.js -- npm run build:js",
     "watch": "parallelshell \"npm run watch:html -s\" \"npm run watch:css -s\" \"npm run watch:img -s\" \"npm run watch:js\"",
 
-    "serve": "http-server -p 4001 dist/",
-    "live-reload": "live-reload --port 4000 dist/",
+    "serve": "http-server -p 4001 docs/",
+    "live-reload": "live-reload --port 4000 docs/",
 
     "open:dev": "opener http://localhost:4001",
     "dev": "npm run open:dev && parallelshell \"npm run live-reload -s\" \"npm run serve -s\" \"npm run watch -s\"",
@@ -58,10 +58,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wad3g/yao-boilerplate.git"
+    "url": "https://github.com/wad3g/spar-boilerplate.git"
   },
   "keywords": [
-    "yao",
+    "spar",
     "boilerplate",
     "npm",
     "npm scripts",
@@ -70,8 +70,8 @@
     "postcss"
   ],
   "bugs": {
-    "url": "https://github.com/wad3g/yao-boilerplate.git/issues"
+    "url": "https://github.com/wad3g/spar-boilerplate.git/issues"
   },
   "private": true,
-  "homepage": "https://github.com/wad3g/yao-boilerplate.git"
+  "homepage": "https://github.com/wad3g/spar-boilerplate.git"
 }

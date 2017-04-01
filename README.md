@@ -1,5 +1,5 @@
-# Yao Boilerplate
-A simple PostCSS boilerplate built using npm scripts
+# Spar /spär/
+**[WIP]** A lean boilerplate using npm as a Build Tool
 
 
 ## Features
@@ -18,8 +18,8 @@ A simple PostCSS boilerplate built using npm scripts
 Clone the repository
 
 ``` bash
-git clone https://github.com/wad3g/yao-boilerplate.git
-cd yao-boilerplate
+git clone https://github.com/wad3g/spar-boilerplate.git
+cd spar-boilerplate
 ```
 
 Install the dependencies.
@@ -37,7 +37,7 @@ npm start
 
 ## Scripts
 
-*Yao Boilerplate* uses npm scripts as the _only_ build tool. Here's a list of available tasks:
+**Spar** uses npm scripts as the build tool. Here's a list of available tasks:
 
 ##### `npm start`
 
