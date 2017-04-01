@@ -1,10 +1,10 @@
 .hero {
-    min-height: 460px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 
     &__image {
-        background-color: #0B0001;
+        background-color: #191C21;
         width: 100%;
         flex-grow: 5;
         flex-shrink: 1;
@@ -17,26 +17,28 @@
     }
 
     &__title {
-        font-size: 320px;
+        font-size: calc(100% + 12vw);
             font-weight: 800;
             text-transform: uppercase;
             color: white;
             margin-top: 0;
             line-height: 1;
             letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
 
-        @media (max-width: 700px) {
-            font-size: 42px;
+        span {
+            font-weight: 200;
+            color: #999;
+            text-transform: none;
         }
     }
 
     &__sub-title {
-        font-size: 2rem;
-font-weight: 400;
-margin-bottom: 15px;
-line-height: 0;
-letter-spacing: 0.02em;
-margin-top: 0;
-color: #898998;
+        font-size: calc(50% + 1.4vw);
+        font-weight: 300;
+        line-height: 2;
+        letter-spacing: 0.035em;
+        margin-top: 3rem;;
+        color: #6DD280;
     }
 }
